@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+  <name>copter_arm_robot</name>
+  <version>0.0.0</version>
+  <description>The copter_arm_robot package</description>
+
+  <maintainer email="carlos@beta-robots.com">Carlos J. Rosales Gallegos</maintainer>
+
+  <license>GPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+  </export>
+</package>

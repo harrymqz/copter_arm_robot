@@ -1,0 +1,12 @@
+copter_arm:
+  state_controller:
+     type: joint_state_controller/JointStateController
+     publish_rate: 50
+
+  free_controller:
+     type: effort_controllers/JointEffortController
+     joint: free_joint
+
+  motor_controller:
+     type: velocity_controllers/JointVelocityController
+     joint: motor_joint
